@@ -1,0 +1,149 @@
+:root {
+    --primary:#003366;
+    --secondary:white;
+    --highlight: #FF0000;
+  }
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.nav-bar{
+    
+    padding: 20px;
+    margin: 0px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color:var(--primary) ;
+}
+
+.nav-bar a:hover{
+    color:var(--highlight);
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+  
+}
+.nav-bar a.active{
+    color: var(--highlight);
+}
+
+.container{
+    display: flex;
+}
+.container .item1{
+flex: 8;
+height: 20rem;
+padding: 5rem;
+margin: 5rem; 
+font-size: 3.1rem;
+}
+.container .item1:hover{
+   color: var(--highlight);
+   transform:scale(1.2);
+   transition-duration: 1s;
+    }
+#profile{
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    border: 5px solid var(--primary);
+}
+#profile:hover{
+    transform: scale(1.1);
+    border: 5px solid var(--highlight);
+    transition-duration: 1s;
+}
+.container .item2{
+    flex:4;
+    padding: 5rem;
+    margin: 5rem;   
+    height: 20rem;
+    margin-top: 2rem;
+}
+
+footer{
+  background-color: var(--highlight);
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+  padding: 2rem;
+  color: var(--primary);
+
+}
+
+.about-con{
+    margin:0px 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+  }
+
+  .card:hover{
+      transform: scale(1.1);
+      transition:1s;
+      color: var(--highlight);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+  }
+
+.card-con{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+i{
+    font-size: 3rem;
+    margin:2rem;
+    margin-right: 0;
+    padding-right: 0;
+    color: black;
+}
+i:hover{
+    color: var(--highlight);
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.link-con{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    padding: 2rem;
+}
+.btn{
+
+    color: var(--primary);
+    font-size: 2rem;
+    text-align: center;
+}
+.btn:hover{
+    color: var(--highlight);
+    transform: scale(1.2);
+}
+
+
+
